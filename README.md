@@ -1,1 +1,1 @@
-Free and Open Source multiplayer PVE extraction shooter inspired by ArrowHead Studios’ hit release ‘Helldivers: 2’ (2024). In this game, players will fight alongside one another against aliens in a galactic war. This game will be designed to be decentralized, so community members can create their own galactic wars and run their own servers.
+TODO = Write something here
