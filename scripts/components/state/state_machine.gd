@@ -2,13 +2,13 @@
 class_name StateMachine
 extends BaseComponent
 
-@export var CURRENT_STATE : BaseState
+@export var CURRENT_STATE : State
 var states : Dictionary = {}
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
 	for child in get_children():
-		if child is BaseState:
+		if child is State:
 			states[child.name] = child
 			child.transition.connect(on_child_transition)
 		else:

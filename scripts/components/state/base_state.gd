@@ -1,5 +1,5 @@
 @icon("res://assets/node_state.png")
-class_name BaseState
+class_name State
 extends BaseComponent
 
 var state_machine : StateMachine
@@ -8,7 +8,7 @@ var state_machine : StateMachine
 func _ready() -> void:
 	state_machine = self.get_parent()
 
-func _enter(previous_state : BaseState) -> void:
+func _enter(previous_state : State) -> void:
 	pass
 
 func _exit() -> void:
