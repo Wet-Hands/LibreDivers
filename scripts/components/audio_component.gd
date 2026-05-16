@@ -12,14 +12,10 @@ func play_audio(stream : AudioStream) -> void:
 func play_audio_3d(stream : AudioStream, position : Vector3) -> void:
 	var audio_player : AudioStreamPlayer3D = AudioStreamPlayer3D.new()
 	audio_player.position = position
-	audio_player.connect("finished", kill_audio_3d.bind(audio_player))
+	audio_player.connect("finished", kill_audio.bind(audio_player))
 	add_child(audio_player)
 	audio_player.play()
 
-func kill_audio(player : AudioStreamPlayer) -> void:
-	player.stop()
-	player.queue_free()
-
-func kill_audio_3d(player : AudioStreamPlayer3D) -> void:
+func kill_audio(player : Node) -> void:
 	player.stop()
 	player.queue_free()
