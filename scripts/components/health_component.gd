@@ -4,6 +4,7 @@ extends BaseComponent
 @export var maximum_health : float
 @export var current_health : float
 
+# TODO Pass the Amount Health Changed through signal
 signal current_health_changed
 signal maximum_health_changed
 
