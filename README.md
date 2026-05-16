@@ -5,10 +5,12 @@
 Free and Open Source multiplayer PVE extraction shooter inspired by ArrowHead Studios’ hit release ‘Helldivers 2’ (2024). In this game, players will fight alongside one another against aliens in a galactic war. Unlike HD2, the game will be designed to be decentralized, so community members can create their own galactic wars and run their own servers.
 
 ## Current Project Goals
-- Create Launcher to Download Cient Software
-- Develop Character Controller
-- Develop Data-Driven Terrain Generation
-- Introduce Peer to Peer Networking
+- Develop LibreDivers Launcher
+  - Connects to Github to download latest builds of LibreDivers
+- Create Networked Third Person Player Controller
+  - Walking, Sprinting, Jumping, Crouching, Diving
+- Data driven Terrain Generation
+  - Instantiate PoI's and Structures
 
 ## Contributor's Guide
 If you have any experience with any field related to the development of this project feel free to join and help the cause!
