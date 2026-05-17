@@ -12,6 +12,7 @@ grow_horizontal = 2
 grow_vertical = 2
 theme = ExtResource("1_w4ck6")
 script = ExtResource("2_idasq")
+debug = true
 container_container = NodePath("PanelContainer/MarginContainer/ContainerContainer")
 main_container = NodePath("PanelContainer/MarginContainer/ContainerContainer/MainContainer")
 
