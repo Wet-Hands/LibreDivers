@@ -12,9 +12,6 @@ Free and Open Source multiplayer PVE extraction shooter inspired by ArrowHead St
 - Data driven Terrain Generation
   - Instantiate PoI's and Structures
 
-## Contributor's Guide
+## Contributions
 If you have any experience with any field related to the development of this project feel free to join and help the cause!
-### Scope of PRs
-All Pull Requests should fully document the changes they include in their file changes. They should also be limited to one general topic and not touch all over the codebase unless its justifiable.
-### Use of AI and LLMs
-New code that was written largely, entirely, or noticably by an LLM will not be accepted. All contributions should be made by humans that understand the codebase.
+Take a look at the [Contribution Guide](CONTRIBUTING.md) if you want to contribute to the LibreDivers project.
