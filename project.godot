@@ -16,6 +16,10 @@ run/main_scene="uid://bi5yod1y3rjym"
 config/features=PackedStringArray("4.6", "Forward Plus")
 config/icon="res://icon.svg"
 
+[autoload]
+
+DiscordRPCLoader="*uid://doqgmkc63e2i3"
+
 [display]
 
 window/size/viewport_width=1920
@@ -24,7 +28,7 @@ window/stretch/mode="viewport"
 
 [editor_plugins]
 
-enabled=PackedStringArray("res://addons/Todo_Manager/plugin.cfg")
+enabled=PackedStringArray("res://addons/Todo_Manager/plugin.cfg", "res://addons/discord-rpc-gd/plugin.cfg")
 
 [input]
 
