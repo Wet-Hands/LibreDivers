@@ -1,5 +1,5 @@
 # LibreDivers
-[![Discord](https://img.shields.io/badge/Discord-Join%20Server-5865F2?logo=discord&logoColor=white)](https://discord.gg/dHaKQFyGUB) 
+[![Discord](https://img.shields.io/badge/Discord-Join%20Server-5865F2?logo=discord&logoColor=white)](https://discord.gg/EhUVN3Q2UG) 
 [![Godot](https://img.shields.io/badge/Godot-v4.6.2%20-478CBF?logo=godot-engine&logoColor=white)](https://godotengine.org/download/)
 
 
