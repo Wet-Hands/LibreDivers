@@ -1,0 +1,73 @@
+[gd_scene format=3 uid="uid://bi5yod1y3rjym"]
+
+[ext_resource type="Theme" uid="uid://d2c1qdnj1mpmy" path="res://scenes/user_interface/main_menu/main.theme" id="1_w4ck6"]
+[ext_resource type="Script" uid="uid://br1qsfs2d6to0" path="res://scenes/user_interface/main_menu/dev_main_menu.gd" id="2_idasq"]
+
+[node name="MainMenu" type="Control" unique_id=181704356 node_paths=PackedStringArray("main_container")]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("1_w4ck6")
+script = ExtResource("2_idasq")
+main_container = NodePath("PanelContainer/MarginContainer/VBoxContainer/MainContainer")
+
+[node name="PanelContainer" type="PanelContainer" parent="." unique_id=1271675554]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -768.0
+offset_top = -409.6
+offset_right = 768.0
+offset_bottom = 409.6
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="MarginContainer" type="MarginContainer" parent="PanelContainer" unique_id=1591372550]
+layout_mode = 2
+theme_override_constants/margin_left = 50
+theme_override_constants/margin_top = 50
+theme_override_constants/margin_right = 50
+theme_override_constants/margin_bottom = 50
+
+[node name="VBoxContainer" type="VBoxContainer" parent="PanelContainer/MarginContainer" unique_id=1245796704]
+layout_mode = 2
+
+[node name="TitleLabel" type="Label" parent="PanelContainer/MarginContainer/VBoxContainer" unique_id=232571117]
+layout_mode = 2
+text = "LibreDivers"
+horizontal_alignment = 1
+
+[node name="MenuLabel" type="Label" parent="PanelContainer/MarginContainer/VBoxContainer" unique_id=461609347]
+layout_mode = 2
+theme_override_font_sizes/font_size = 48
+text = "Dev Main Menu"
+horizontal_alignment = 1
+
+[node name="MainContainer" type="VBoxContainer" parent="PanelContainer/MarginContainer/VBoxContainer" unique_id=976907809]
+layout_mode = 2
+
+[node name="HostButton" type="Button" parent="PanelContainer/MarginContainer/VBoxContainer/MainContainer" unique_id=2129142620]
+layout_mode = 2
+text = "Host Game"
+
+[node name="JoinButton" type="Button" parent="PanelContainer/MarginContainer/VBoxContainer/MainContainer" unique_id=1564071022]
+layout_mode = 2
+text = "Join Game"
+
+[node name="SettingsButton" type="Button" parent="PanelContainer/MarginContainer/VBoxContainer/MainContainer" unique_id=990754056]
+layout_mode = 2
+text = "Settings"
+
+[node name="CreditsButton" type="Button" parent="PanelContainer/MarginContainer/VBoxContainer/MainContainer" unique_id=348602141]
+layout_mode = 2
+text = "Credits"
+
+[node name="QuitButton" type="Button" parent="PanelContainer/MarginContainer/VBoxContainer/MainContainer" unique_id=419595321]
+layout_mode = 2
+text = "Quit"

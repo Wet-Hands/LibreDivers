@@ -12,6 +12,7 @@ config_version=5
 
 config/name="LibreDivers"
 config/description="Free and Open Source multiplayer PVE extraction shooter."
+run/main_scene="uid://bi5yod1y3rjym"
 config/features=PackedStringArray("4.6", "Forward Plus")
 config/icon="res://icon.svg"
 
