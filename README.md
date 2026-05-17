@@ -2,7 +2,7 @@
 [![Discord](https://img.shields.io/badge/Discord-Join%20Server-5865F2?logo=discord&logoColor=white)](https://discord.gg/dHaKQFyGUB)
 
 
-Free and Open Source multiplayer PVE extraction shooter inspired by ArrowHead Studios’ hit release ‘Helldivers 2’ (2024). In this game, players will fight alongside one another against aliens in a galactic war. Unlike HD2, the game will be designed to be decentralized, so community members can create their own galactic wars and run their own servers.
+Free and Open Source multiplayer PVE extraction shooter inspired by ArrowHead Studios’ hit release ‘Helldivers 2’ (2024). In this game, players will fight alongside one another against aliens in a galactic war. Thsi game will be designed to be decentralized and data-driven, so community members can run their own servers and fight in their own galactic wars.
 
 ## Current Project Goals [Summer 2026]
 - Develop LibreDivers Launcher
