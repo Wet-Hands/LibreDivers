@@ -2,6 +2,8 @@
 [![Discord](https://img.shields.io/badge/Discord-Join%20Server-5865F2?logo=discord&logoColor=white)](https://discord.gg/EhUVN3Q2UG) 
 [![Godot](https://img.shields.io/badge/Godot-v4.6.2%20-478CBF?logo=godot-engine&logoColor=white)](https://godotengine.org/download/)
 
+![](https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png) 
+
 
 Free and Open Source multiplayer PVE extraction shooter inspired by ArrowHead Studios’ hit release ‘Helldivers 2’ (2024). In this game, players will fight alongside one another against aliens in a galactic war. Thsi game will be designed to be decentralized and data-driven, so community members can run their own servers and fight in their own galactic wars.
 
