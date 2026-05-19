@@ -1,5 +1,5 @@
 class_name AudioComponent
-extends BaseComponent
+extends Component
 
 # TODO Add ability to change volume, bus, and maybe Pitch
 func play_audio(stream : AudioStream) -> void:

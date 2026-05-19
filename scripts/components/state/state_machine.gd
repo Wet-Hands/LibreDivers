@@ -1,6 +1,6 @@
 @icon("res://assets/node_state.png")
 class_name StateMachine
-extends BaseComponent
+extends Component
 
 @export var CURRENT_STATE : State
 var states : Dictionary = {}

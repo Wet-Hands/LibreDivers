@@ -1,4 +1,4 @@
-class_name BaseComponent
+class_name Component
 extends Node
 
 @export var debug : bool = false

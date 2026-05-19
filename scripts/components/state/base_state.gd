@@ -1,6 +1,6 @@
 @icon("res://assets/node_state.png")
 class_name State
-extends BaseComponent
+extends Component
 
 var state_machine : StateMachine
 

@@ -1,5 +1,5 @@
 class_name HealthComponent
-extends BaseComponent
+extends Component
 
 @export var maximum_health : float
 @export var current_health : float
